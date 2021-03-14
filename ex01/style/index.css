@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color:firebrick;    
+}
+
+h2 {
+    color: dodgerblue;
+    font-size: 28px;
+  }
+
+p {
+    font-size: 25px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #ffffff;
+    margin-left: 100px;
+    margin-right: 100px;   
+    padding: 20px;
+  }
+  
+  .grid-item {
+    border: none;
+    padding: 50px;
+    margin: 5px 10px 0px 10px;
+    font-size: 30px;
+    text-align:justify;    
+  }
+
+  .grid-item img {
+    width: 400px;
+    height: 300px;
+  }
+
+
